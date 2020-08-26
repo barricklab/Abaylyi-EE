@@ -1,50 +1,408 @@
-#=GENOME_DIFF 1.0
+#=GENOME_DIFF	1.0
+#=TITLE	pop3_1000gen_A
 #=AUTHOR	Renda BA, Barrick JE
-#=REFSEQ	https://raw.githubusercontent.com/barricklab/Abaylyi-EE/master/reference/Acinetobacter-baylyi-ADP1-WT.gff3
+#=REFSEQ	https://raw.githubusercontent.com/barricklab/Abaylyi-EE/master/reference/Acinetobacter-baylyi-ADP1-NCBI.gbk
 #=READSEQ	ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR348/008/SRR3485658/SRR3485658_1.fastq.gz
 #=READSEQ	ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR348/008/SRR3485658/SRR3485658_2.fastq.gz
-DEL	373	141	NC_005966	178468	1
-MOB	368	2,4	NC_005966	356110	IS1236	-1	3
-MOB	10001	7	NC_005966	84585	IS1236	-1	3
-DEL	10002	5,7	NC_005966	84585	15747	mediated=IS1236	within=10001:2
-DEL	367	183	NC_005966	942543	2315	between=IS1236
-SNP	374	184	NC_005966	1179108	T
-SNP	375	187	NC_005966	1278410	C
-INS	376	188	NC_005966	1360199	G
-SNP	377	198	NC_005966	1803858	T
-SNP	378	199	NC_005966	1803861	C
-SNP	379	200	NC_005966	1803900	T
-SNP	380	201	NC_005966	1803903	C
-SNP	381	202	NC_005966	1803915	A
-SNP	382	203	NC_005966	1803921	G
-SNP	383	204	NC_005966	1803930	C
-SNP	384	205	NC_005966	1803933	G
-SNP	385	206	NC_005966	1803939	T
-MOB	369	13,14	NC_005966	2099589	IS1236	-1	3
-DEL	10005	352	NC_005966	2120289	49351
-MOB	370	18,17	NC_005966	2248854	IS1236	-1	3
-INS	386	215	NC_005966	2420279	C
-SNP	387	216	NC_005966	2478767	G
-SNP	388	217	NC_005966	2542652	A
-MOB	371	9,12	NC_005966	2755073	IS1236	1	3
-SNP	389	218	NC_005966	2765010	C
-AMP	16	.	NC_005966	2803328	1890	2
-SNP	29	.	NC_005966	2804910	G	within=16:1
-INS	30	.	NC_005966	2804910	TGTGGTGTCTACAGTGAAGCTGAGTTCAGTTGATGTCGTGCCAACATTGCCTGCTTGGTCCACAATCGACGCTTTGTAGTTGTGGGTGCCTTCGCTGACATTGCTCAATTGGTAGCTGAAGCTTGCGCCTGTGACGGTCGCTGTACCCAGTAAGGTGTTGCCTTCATAGATCTGAACCACATCACCATCTTTAAGACCACTCACTGTACCTTTGAGTAGTGGTGAGGTGTCATTGGTCGATGTGCCTGTACCGTAGTCACCGGTATTCGGTGCAACGTCATCAGTATAGCCTGTCAGGCTGATGCTGTTATCTGTGGTTGGCGC	within=16:1
-SNP	17	.	NC_005966	2804914	G	within=16:1
-SNP	18	.	NC_005966	2804917	G	within=16:1
-SNP	19	.	NC_005966	2804938	G	within=16:1
-SNP	20	.	NC_005966	2804956	C	within=16:1
-SNP	21	.	NC_005966	2804983	A	within=16:1
-SNP	22	.	NC_005966	2805028	G	within=16:1
-SNP	23	.	NC_005966	2805037	G	within=16:1
-SNP	24	.	NC_005966	2805054	C	within=16:1
-SNP	25	.	NC_005966	2805067	A	within=16:1
-SNP	26	.	NC_005966	2805145	A	within=16:1
-SNP	27	.	NC_005966	2805196	G	within=16:1
-SNP	28	.	NC_005966	2803531	A	within=16:1
-SUB	390	219,220	NC_005966	2812774	2	TT
-MOB	372	6,8	NC_005966	3000184	IS1236	1	3
-MOB	10003	10	NC_005966	3077523	IS1236	-1	3
-DEL	10004	10,3	NC_005966	3077523	229	within=10003:2
-SNP	391	231	NC_005966	3357842	A
+DEL	10001	.	ADP1-WT	84585	15747	mediated=IS1236	within=10002:2
+MOB	10002	.	ADP1-WT	84585	IS1236	-1	3
+MOB	1	51,52	ADP1-WT	356109	IS1236	-1	3
+DEL	2	42	ADP1-WT	942542	2315	between=IS1236
+INS	3	22	ADP1-WT	1360198	G	repeat_length=1	repeat_new_copies=6	repeat_ref_copies=5	repeat_seq=G
+MOB	10003	.	ADP1-WT	2099588	IS1236	-1	3
+DEL	10004	.	ADP1-WT	2120288	49351
+MOB	10005	.	ADP1-WT	2248853	IS1236	-1	3
+SNP	4	29	ADP1-WT	2478767	G
+MOB	5	82,90	ADP1-WT	2755073	IS1236	1	3
+SUB	6	33,34	ADP1-WT	2814988	2	TT
+MOB	7	73,83	ADP1-WT	3002398	IS1236	1	3
+DEL	10006	.	ADP1-WT	3079735	232	within=10007:2
+MOB	10007	.	ADP1-WT	3079735	IS1236	-1	3
+RA	8	.	ADP1-WT	8869	0	A	C	bias_e_value=1.9844e-87	bias_p_value=5.51096e-94	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1245.4	fisher_strand_p_value=2.49212e-96	frequency=2.623e-01	ks_quality_p_value=1	major_base=A	major_cov=382/54	major_frequency=7.377e-01	minor_base=C	minor_cov=0/155	new_cov=0/155	polymorphism_frequency=2.623e-01	polymorphism_score=173.6	prediction=polymorphism	ref_cov=382/54	total_cov=382/209
+RA	9	.	ADP1-WT	37893	0	T	G	bias_e_value=4.00295e-81	bias_p_value=1.11167e-87	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1414.9	fisher_strand_p_value=5.38212e-90	frequency=2.923e-01	ks_quality_p_value=1	major_base=T	major_cov=119/370	major_frequency=7.077e-01	minor_base=G	minor_cov=202/0	new_cov=202/0	polymorphism_frequency=2.923e-01	polymorphism_score=139.6	prediction=polymorphism	ref_cov=119/370	total_cov=322/370
+RA	10	.	ADP1-WT	343253	0	T	G	bias_e_value=1.47e-62	bias_p_value=4.08238e-69	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1525.9	fisher_strand_p_value=2.49582e-71	frequency=2.016e-01	ks_quality_p_value=1	major_base=T	major_cov=93/402	major_frequency=7.984e-01	minor_base=G	minor_cov=125/0	new_cov=125/0	polymorphism_frequency=2.016e-01	polymorphism_score=109.3	prediction=polymorphism	ref_cov=93/402	total_cov=218/402
+RA	11	.	ADP1-WT	556081	0	C	A	bias_e_value=1.99071e-42	bias_p_value=5.52846e-49	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1452.6	fisher_strand_p_value=5.11325e-51	frequency=2.000e-01	ks_quality_p_value=0.925071	major_base=C	major_cov=312/104	major_frequency=8.000e-01	minor_base=A	minor_cov=0/104	new_cov=0/104	polymorphism_frequency=2.000e-01	polymorphism_score=175.1	prediction=polymorphism	ref_cov=312/104	total_cov=312/208
+RA	12	.	ADP1-WT	610701	0	T	G	bias_e_value=2.94736e-59	bias_p_value=8.18522e-66	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1489.7	fisher_strand_p_value=5.24971e-68	frequency=2.197e-01	ks_quality_p_value=1	major_base=T	major_cov=112/371	major_frequency=7.803e-01	minor_base=G	minor_cov=136/0	new_cov=136/0	polymorphism_frequency=2.197e-01	polymorphism_score=105.8	prediction=polymorphism	ref_cov=112/371	total_cov=248/371
+RA	13	.	ADP1-WT	902133	0	T	G	bias_e_value=9.62381e-70	bias_p_value=2.67266e-76	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1167.5	fisher_strand_p_value=1.4831e-78	frequency=2.643e-01	ks_quality_p_value=1	major_base=T	major_cov=47/312	major_frequency=7.357e-01	minor_base=G	minor_cov=129/0	new_cov=129/0	polymorphism_frequency=2.643e-01	polymorphism_score=51.8	prediction=polymorphism	ref_cov=47/312	total_cov=177/312
+RA	14	.	ADP1-WT	932425	0	T	G	bias_e_value=5.0164e-59	bias_p_value=1.39312e-65	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1403.3	fisher_strand_p_value=8.96577e-68	frequency=2.408e-01	ks_quality_p_value=1	major_base=T	major_cov=112/342	major_frequency=7.592e-01	minor_base=G	minor_cov=144/0	new_cov=144/0	polymorphism_frequency=2.408e-01	polymorphism_score=44.3	prediction=polymorphism	ref_cov=112/342	total_cov=258/342
+RA	15	.	ADP1-WT	957195	0	T	G	bias_e_value=9.51438e-52	bias_p_value=2.64227e-58	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1112.2	fisher_strand_p_value=1.90765e-60	frequency=2.593e-01	ks_quality_p_value=1	major_base=T	major_cov=81/276	major_frequency=7.407e-01	minor_base=G	minor_cov=125/0	new_cov=125/0	polymorphism_frequency=2.593e-01	polymorphism_score=35.3	prediction=polymorphism	ref_cov=81/276	total_cov=206/276
+RA	16	.	ADP1-WT	999656	0	T	G	bias_e_value=5.04272e-42	bias_p_value=1.40043e-48	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1216.4	fisher_strand_p_value=1.20789e-50	frequency=2.314e-01	ks_quality_p_value=1	major_base=T	major_cov=121/281	major_frequency=7.686e-01	minor_base=G	minor_cov=121/0	new_cov=121/0	polymorphism_frequency=2.314e-01	polymorphism_score=34.8	prediction=polymorphism	ref_cov=121/281	total_cov=243/281
+RA	17	.	ADP1-WT	1027951	0	A	C	bias_e_value=7.20944e-53	bias_p_value=2.00216e-59	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1342.8	fisher_strand_p_value=1.41888e-61	frequency=2.513e-01	ks_quality_p_value=1	major_base=A	major_cov=308/121	major_frequency=7.487e-01	minor_base=C	minor_cov=0/144	new_cov=0/144	polymorphism_frequency=2.513e-01	polymorphism_score=23.5	prediction=polymorphism	ref_cov=308/121	total_cov=308/267
+RA	18	.	ADP1-WT	1027954	0	A	C	bias_e_value=1.25862e-49	bias_p_value=3.49537e-56	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1308.2	fisher_strand_p_value=2.61653e-58	frequency=2.466e-01	ks_quality_p_value=1	major_base=A	major_cov=304/133	major_frequency=7.534e-01	minor_base=C	minor_cov=0/143	new_cov=0/143	polymorphism_frequency=2.466e-01	polymorphism_score=59.3	prediction=polymorphism	ref_cov=304/133	total_cov=305/279
+RA	19	.	ADP1-WT	1055563	0	G	T	bias_e_value=1.75378e-38	bias_p_value=4.87048e-45	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1306.4	fisher_strand_p_value=4.85977e-47	frequency=2.242e-01	ks_quality_p_value=0.930442	major_base=G	major_cov=125/273	major_frequency=7.758e-01	minor_base=T	minor_cov=115/0	new_cov=115/0	polymorphism_frequency=2.242e-01	polymorphism_score=162.5	prediction=polymorphism	ref_cov=125/273	total_cov=240/273
+RA	20	.	ADP1-WT	1258687	0	T	G	bias_e_value=3.66275e-52	bias_p_value=1.01719e-58	consensus_reject=FREQUENCY_CUTOFF	consensus_score=956.1	fisher_strand_p_value=7.29325e-61	frequency=2.181e-01	ks_quality_p_value=1	major_base=T	major_cov=36/283	major_frequency=7.819e-01	minor_base=G	minor_cov=89/0	new_cov=89/0	polymorphism_frequency=2.181e-01	polymorphism_score=108.0	prediction=polymorphism	ref_cov=36/283	total_cov=125/283
+RA	21	.	ADP1-WT	1332764	0	T	G	bias_e_value=4.74987e-58	bias_p_value=1.3191e-64	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1061.3	fisher_strand_p_value=8.61485e-67	frequency=2.237e-01	ks_quality_p_value=1	major_base=T	major_cov=41/306	major_frequency=7.763e-01	minor_base=G	minor_cov=100/0	new_cov=100/0	polymorphism_frequency=2.237e-01	polymorphism_score=119.3	prediction=polymorphism	ref_cov=41/306	total_cov=141/306
+RA	22	.	ADP1-WT	1360193	1	.	G	bias_e_value=2808790	bias_p_value=0.780039	consensus_score=2380.4	fisher_strand_p_value=0.693795	frequency=1	ks_quality_p_value=0.598251	major_base=G	major_cov=238/285	major_frequency=9.887e-01	minor_base=.	minor_cov=2/4	new_cov=238/285	polymorphism_frequency=9.887e-01	polymorphism_score=12.8	prediction=consensus	ref_cov=2/4	total_cov=240/289
+RA	23	.	ADP1-WT	1791628	0	T	G	bias_e_value=5.28253e-61	bias_p_value=1.46703e-67	consensus_reject=FREQUENCY_CUTOFF	consensus_score=837.1	fisher_strand_p_value=9.17094e-70	frequency=3.318e-01	ks_quality_p_value=1	major_base=T	major_cov=58/238	major_frequency=6.682e-01	minor_base=G	minor_cov=147/0	new_cov=147/0	polymorphism_frequency=3.318e-01	polymorphism_score=108.3	prediction=polymorphism	ref_cov=58/238	total_cov=205/238
+RA	24	.	ADP1-WT	1821911	0	T	G	bias_e_value=6.36518e-33	bias_p_value=1.76769e-39	consensus_reject=FREQUENCY_CUTOFF	consensus_score=691.3	fisher_strand_p_value=1.865e-41	frequency=2.689e-01	ks_quality_p_value=1	major_base=T	major_cov=58/184	major_frequency=7.311e-01	minor_base=G	minor_cov=89/0	new_cov=89/0	polymorphism_frequency=2.689e-01	polymorphism_score=60.0	prediction=polymorphism	ref_cov=58/184	total_cov=148/184
+RA	25	.	ADP1-WT	2029047	0	A	C	bias_e_value=1.61214e-36	bias_p_value=4.47714e-43	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1299.3	fisher_strand_p_value=4.34048e-45	frequency=2.090e-01	ks_quality_p_value=1	major_base=A	major_cov=289/150	major_frequency=7.910e-01	minor_base=C	minor_cov=0/116	new_cov=0/116	polymorphism_frequency=2.090e-01	polymorphism_score=68.0	prediction=polymorphism	ref_cov=289/150	total_cov=289/266
+RA	26	.	ADP1-WT	2169670	0	G	A	consensus_score=822.3	deleted=1	frequency=1	major_base=A	major_cov=109/120	major_frequency=1.000e+00	minor_base=N	minor_cov=0/0	new_cov=109/120	polymorphism_frequency=1.000e+00	polymorphism_score=NA	prediction=consensus	ref_cov=0/0	total_cov=109/120
+RA	27	.	ADP1-WT	2268004	0	T	G	bias_e_value=1.24109e-54	bias_p_value=3.44668e-61	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1097.4	fisher_strand_p_value=2.37378e-63	frequency=2.162e-01	ks_quality_p_value=1	major_base=T	major_cov=44/304	major_frequency=7.838e-01	minor_base=G	minor_cov=96/0	new_cov=96/0	polymorphism_frequency=2.162e-01	polymorphism_score=80.2	prediction=polymorphism	ref_cov=44/304	total_cov=142/304
+RA	28	.	ADP1-WT	2344833	0	T	G	bias_e_value=5.67076e-49	bias_p_value=1.57485e-55	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1071.6	fisher_strand_p_value=1.19242e-57	frequency=2.404e-01	ks_quality_p_value=1	major_base=T	major_cov=65/273	major_frequency=7.596e-01	minor_base=G	minor_cov=107/0	new_cov=107/0	polymorphism_frequency=2.404e-01	polymorphism_score=50.3	prediction=polymorphism	ref_cov=65/273	total_cov=172/273
+RA	29	.	ADP1-WT	2478767	0	T	G	bias_e_value=1854670	bias_p_value=0.515068	consensus_score=2732.3	fisher_strand_p_value=0.195793	frequency=1	ks_quality_p_value=0.999989	major_base=G	major_cov=262/332	major_frequency=9.966e-01	minor_base=T	minor_cov=2/0	new_cov=262/332	polymorphism_frequency=9.966e-01	polymorphism_score=-5.1	prediction=consensus	ref_cov=2/0	total_cov=264/333
+RA	30	.	ADP1-WT	2616674	0	A	C	bias_e_value=7.83363e-30	bias_p_value=2.1755e-36	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1277.4	fisher_strand_p_value=2.48378e-38	frequency=2.016e-01	ks_quality_p_value=1	major_base=A	major_cov=277/135	major_frequency=7.984e-01	minor_base=C	minor_cov=2/102	new_cov=2/102	polymorphism_frequency=2.016e-01	polymorphism_score=46.8	prediction=polymorphism	ref_cov=277/135	total_cov=279/242
+RA	31	.	ADP1-WT	2677397	0	A	C	bias_e_value=2.26794e-52	bias_p_value=6.29836e-59	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1105.5	fisher_strand_p_value=4.50033e-61	frequency=2.205e-01	ks_quality_p_value=1	major_base=A	major_cov=301/56	major_frequency=7.795e-01	minor_base=C	minor_cov=0/101	new_cov=0/101	polymorphism_frequency=2.205e-01	polymorphism_score=117.9	prediction=polymorphism	ref_cov=301/56	total_cov=301/157
+RA	32	.	ADP1-WT	2794400	0	A	C	bias_e_value=3.26238e-55	bias_p_value=9.06008e-62	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1376.4	fisher_strand_p_value=6.18251e-64	frequency=2.365e-01	ks_quality_p_value=1	major_base=A	major_cov=338/127	major_frequency=7.635e-01	minor_base=C	minor_cov=0/144	new_cov=0/144	polymorphism_frequency=2.365e-01	polymorphism_score=89.9	prediction=polymorphism	ref_cov=338/127	total_cov=338/272
+RA	33	.	ADP1-WT	2814988	0	A	T	bias_e_value=2954520	bias_p_value=0.82051	consensus_score=2647.5	fisher_strand_p_value=0.464286	frequency=1	ks_quality_p_value=0.999996	major_base=T	major_cov=375/324	major_frequency=9.986e-01	minor_base=C	minor_cov=0/1	new_cov=375/324	polymorphism_frequency=9.986e-01	polymorphism_score=NA	prediction=consensus	ref_cov=0/1	total_cov=375/326
+RA	34	.	ADP1-WT	2814989	0	G	T	bias_e_value=1816590	bias_p_value=0.50449	consensus_score=2476.3	fisher_strand_p_value=0.213614	frequency=1	ks_quality_p_value=0.886499	major_base=T	major_cov=352/301	major_frequency=9.969e-01	minor_base=G	minor_cov=0/2	new_cov=352/301	polymorphism_frequency=9.969e-01	polymorphism_score=-3.3	prediction=consensus	ref_cov=0/2	total_cov=352/303
+RA	35	.	ADP1-WT	2954994	0	T	G	bias_e_value=8.25293e-50	bias_p_value=2.29195e-56	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1266.7	fisher_strand_p_value=1.71024e-58	frequency=2.083e-01	ks_quality_p_value=1	major_base=T	major_cov=80/323	major_frequency=7.917e-01	minor_base=G	minor_cov=106/0	new_cov=106/0	polymorphism_frequency=2.083e-01	polymorphism_score=50.6	prediction=polymorphism	ref_cov=80/323	total_cov=187/323
+RA	36	.	ADP1-WT	3060994	0	T	G	bias_e_value=1.90318e-69	bias_p_value=5.28538e-76	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1610.1	fisher_strand_p_value=2.94415e-78	frequency=2.054e-01	ks_quality_p_value=1	major_base=T	major_cov=81/418	major_frequency=7.946e-01	minor_base=G	minor_cov=129/0	new_cov=129/0	polymorphism_frequency=2.054e-01	polymorphism_score=63.8	prediction=polymorphism	ref_cov=81/418	total_cov=212/418
+RA	37	.	ADP1-WT	3169043	0	A	C	bias_e_value=5.34708e-39	bias_p_value=1.48495e-45	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1465.9	fisher_strand_p_value=1.36345e-47	frequency=2.117e-01	ks_quality_p_value=1	major_base=A	major_cov=305/168	major_frequency=7.883e-01	minor_base=C	minor_cov=0/127	new_cov=0/127	polymorphism_frequency=2.117e-01	polymorphism_score=38.7	prediction=polymorphism	ref_cov=305/168	total_cov=305/296
+RA	38	.	ADP1-WT	3200618	0	T	G	bias_e_value=1.13963e-54	bias_p_value=3.16491e-61	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1527.8	fisher_strand_p_value=2.17842e-63	frequency=2.048e-01	ks_quality_p_value=1	major_base=T	major_cov=105/388	major_frequency=7.952e-01	minor_base=G	minor_cov=125/2	new_cov=125/2	polymorphism_frequency=2.048e-01	polymorphism_score=93.4	prediction=polymorphism	ref_cov=105/388	total_cov=231/390
+RA	39	.	ADP1-WT	3275264	0	A	C	bias_e_value=2.27499e-41	bias_p_value=6.31796e-48	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1487.2	fisher_strand_p_value=5.5217e-50	frequency=2.241e-01	ks_quality_p_value=1	major_base=A	major_cov=310/192	major_frequency=7.759e-01	minor_base=C	minor_cov=0/145	new_cov=0/145	polymorphism_frequency=2.241e-01	polymorphism_score=16.4	prediction=polymorphism	ref_cov=310/192	total_cov=310/342
+RA	40	.	ADP1-WT	3589879	0	T	G	bias_e_value=5.39051e-56	bias_p_value=1.49702e-62	consensus_reject=FREQUENCY_CUTOFF	consensus_score=1713.2	fisher_strand_p_value=1.00907e-64	frequency=2.132e-01	ks_quality_p_value=1	major_base=T	major_cov=153/397	major_frequency=7.868e-01	minor_base=G	minor_cov=148/1	new_cov=148/1	polymorphism_frequency=2.132e-01	polymorphism_score=33.0	prediction=polymorphism	ref_cov=153/397	total_cov=304/398
+MC	41	.	ADP1-WT	84586	100330	0	0	left_inside_cov=4	left_outside_cov=753	right_inside_cov=1	right_outside_cov=881
+MC	42	.	ADP1-WT	941344	944817	1199	1199	left_inside_cov=419	left_outside_cov=428	right_inside_cov=421	right_outside_cov=429
+MC	43	.	ADP1-WT	2120286	2169695	0	0	left_inside_cov=424	left_outside_cov=432	right_inside_cov=418	right_outside_cov=428
+MC	44	.	ADP1-WT	3079738	3079966	0	0	left_inside_cov=1	left_outside_cov=872	right_inside_cov=1	right_outside_cov=834
+JC	45	.	ADP1-WT	1	1	ADP1-WT	3600835	-1	0	alignment_overlap=0	circular_chromosome=1	coverage_minus=484	coverage_plus=438	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__1__1__ADP1-WT__3600835__-1__0____101__101__0__0	max_left=100	max_left_minus=100	max_left_plus=100	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=49	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=99	max_right_plus=100	neg_log10_pos_hash_p_value=0.0	new_junction_coverage=1.32	new_junction_read_count=925	polymorphism_frequency=1.000e+00	pos_hash_score=195	prediction=consensus	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.00	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=0	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.00	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=0	side_2_redundant=0	total_non_overlap_reads=922
+JC	46	.	ADP1-WT	84585	-1	ADP1-WT	321572	1	0	alignment_overlap=0	coverage_minus=350	coverage_plus=382	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__84585__-1__ADP1-WT__321572__1__0____101__101__0__1	max_left=100	max_left_minus=100	max_left_plus=100	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=49	max_pos_hash_score=200	max_right=98	max_right_minus=98	max_right_plus=98	neg_log10_pos_hash_p_value=0.1	new_junction_coverage=1.05	new_junction_read_count=737	polymorphism_frequency=9.946e-01	pos_hash_score=185	prediction=consensus	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.01	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=4	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=732
+JC	47	.	ADP1-WT	100331	1	ADP1-WT	322808	-1	0	alignment_overlap=0	coverage_minus=423	coverage_plus=418	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__100331__1__ADP1-WT__322808__-1__0____101__101__0__1	max_left=100	max_left_minus=100	max_left_plus=100	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=98	max_right_minus=95	max_right_plus=98	neg_log10_pos_hash_p_value=0.0	new_junction_coverage=1.24	new_junction_read_count=867	polymorphism_frequency=9.988e-01	pos_hash_score=189	prediction=consensus	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.00	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=1	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=841
+JC	48	.	ADP1-WT	301915	1	ADP1-WT	301911	-1	0	alignment_overlap=12	coverage_minus=2	coverage_plus=1	flanking_left=101	flanking_right=101	frequency=4.284e-03	junction_possible_overlap_registers=88	key=ADP1-WT__301915__1__ADP1-WT__301923__-1__12____101__101__0__0	max_left=65	max_left_minus=65	max_left_plus=62	max_min_left=0	max_min_left_minus=0	max_min_left_plus=0	max_min_right=40	max_min_right_minus=40	max_min_right_plus=27	max_pos_hash_score=176	max_right=40	max_right_minus=40	max_right_plus=27	neg_log10_pos_hash_p_value=51.9	new_junction_coverage=0.00	new_junction_read_count=3	polymorphism_frequency=4.284e-03	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=1.12	side_1_overlap=12	side_1_possible_overlap_registers=100	side_1_read_count=786	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=1.14	side_2_overlap=0	side_2_possible_overlap_registers=88	side_2_read_count=703	side_2_redundant=0	total_non_overlap_reads=3
+JC	49	.	ADP1-WT	321569	1	ADP1-WT	941305	1	0	alignment_overlap=0	coverage_minus=8	coverage_plus=8	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=100	key=ADP1-WT__321569__1__ADP1-WT__941305__1__0____101__101__1__1	max_left=100	max_left_minus=100	max_left_plus=100	max_min_left=32	max_min_left_minus=4	max_min_left_plus=32	max_min_right=45	max_min_right_minus=45	max_min_right_plus=3	max_pos_hash_score=200	max_right=97	max_right_minus=97	max_right_plus=97	neg_log10_pos_hash_p_value=46.2	new_junction_coverage=0.05	new_junction_read_count=36	polymorphism_frequency=NA	pos_hash_score=12	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=16
+JC	50	.	ADP1-WT	321572	1	ADP1-WT	322809	1	0	alignment_overlap=9	coverage_minus=5	coverage_plus=4	flanking_left=101	flanking_right=101	frequency=1.928e-02	junction_possible_overlap_registers=91	key=ADP1-WT__321572__1__ADP1-WT__322800__1__9____101__101__1__0	max_left=89	max_left_minus=89	max_left_plus=66	max_min_left=40	max_min_left_minus=40	max_min_left_plus=37	max_min_right=41	max_min_right_minus=41	max_min_right_plus=29	max_pos_hash_score=182	max_right=60	max_right_minus=53	max_right_plus=60	neg_log10_pos_hash_p_value=48.3	new_junction_coverage=0.02	new_junction_read_count=15	polymorphism_frequency=1.928e-02	pos_hash_score=7	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=9	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=1.19	side_2_overlap=0	side_2_possible_overlap_registers=91	side_2_read_count=763	side_2_redundant=0	total_non_overlap_reads=9
+JC	51	.	ADP1-WT	321572	1	ADP1-WT	356109	1	0	alignment_overlap=0	coverage_minus=379	coverage_plus=385	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__321572__1__ADP1-WT__356109__1__0____101__101__1__0	max_left=100	max_left_minus=100	max_left_plus=100	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=99	max_right_plus=100	neg_log10_pos_hash_p_value=0.0	new_junction_coverage=1.09	new_junction_read_count=768	polymorphism_frequency=9.960e-01	pos_hash_score=194	prediction=consensus	read_count_offset=3	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.00	side_2_overlap=0	side_2_possible_overlap_registers=97	side_2_read_count=3	side_2_redundant=0	total_non_overlap_reads=764
+JC	52	.	ADP1-WT	322808	-1	ADP1-WT	356111	-1	0	alignment_overlap=0	coverage_minus=314	coverage_plus=432	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__322808__-1__ADP1-WT__356111__-1__0____101__101__1__0	max_left=99	max_left_minus=99	max_left_plus=99	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=0.0	new_junction_coverage=1.10	new_junction_read_count=769	polymorphism_frequency=9.960e-01	pos_hash_score=193	prediction=consensus	read_count_offset=3	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.00	side_2_overlap=0	side_2_possible_overlap_registers=97	side_2_read_count=3	side_2_redundant=0	total_non_overlap_reads=746
+JC	53	.	ADP1-WT	322811	-1	ADP1-WT	1249428	-1	0	alignment_overlap=0	coverage_minus=8	coverage_plus=8	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=100	key=ADP1-WT__322811__-1__ADP1-WT__1249428__-1__0____101__101__0__1	max_left=100	max_left_minus=100	max_left_plus=100	max_min_left=48	max_min_left_minus=6	max_min_left_plus=48	max_min_right=29	max_min_right_minus=29	max_min_right_plus=1	max_pos_hash_score=200	max_right=97	max_right_minus=97	max_right_plus=97	neg_log10_pos_hash_p_value=46.2	new_junction_coverage=0.06	new_junction_read_count=43	polymorphism_frequency=NA	pos_hash_score=12	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=16
+JC	54	.	ADP1-WT	322819	1	ADP1-WT	1249428	-1	0	alignment_overlap=3	coverage_minus=1	coverage_plus=4	flanking_left=101	flanking_right=101	frequency=2.472e-02	junction_possible_overlap_registers=97	key=ADP1-WT__322816__1__ADP1-WT__1249428__-1__3____101__101__0__1	max_left=93	max_left_minus=43	max_left_plus=93	max_min_left=43	max_min_left_minus=43	max_min_left_plus=22	max_min_right=42	max_min_right_minus=0	max_min_right_plus=42	max_pos_hash_score=194	max_right=76	max_right_minus=55	max_right_plus=76	neg_log10_pos_hash_p_value=52.8	new_junction_coverage=0.03	new_junction_read_count=20	polymorphism_frequency=2.472e-02	pos_hash_score=4	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=1.16	side_1_overlap=0	side_1_possible_overlap_registers=97	side_1_read_count=789	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=3	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=5
+JC	55	.	ADP1-WT	466964	-1	ADP1-WT	467093	-1	0	alignment_overlap=5	coverage_minus=2	coverage_plus=1	flanking_left=101	flanking_right=101	frequency=4.342e-03	junction_possible_overlap_registers=95	key=ADP1-WT__466964__-1__ADP1-WT__467098__-1__5____101__101__0__0	max_left=92	max_left_minus=35	max_left_plus=92	max_min_left=35	max_min_left_minus=35	max_min_left_plus=0	max_min_right=4	max_min_right_minus=0	max_min_right_plus=4	max_pos_hash_score=190	max_right=62	max_right_minus=62	max_right_plus=4	neg_log10_pos_hash_p_value=53.5	new_junction_coverage=0.00	new_junction_read_count=3	polymorphism_frequency=4.342e-03	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=1.00	side_1_overlap=5	side_1_possible_overlap_registers=100	side_1_read_count=700	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=1.07	side_2_overlap=0	side_2_possible_overlap_registers=95	side_2_read_count=711	side_2_redundant=0	total_non_overlap_reads=3
+JC	56	.	ADP1-WT	941305	1	ADP1-WT	944859	-1	0	alignment_overlap=0	coverage_minus=3	coverage_plus=3	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=100	key=ADP1-WT__941305__1__ADP1-WT__944859__-1__0____101__101__1__1	max_left=66	max_left_minus=63	max_left_plus=66	max_min_left=45	max_min_left_minus=45	max_min_left_plus=45	max_min_right=34	max_min_right_minus=32	max_min_right_plus=34	max_pos_hash_score=200	max_right=87	max_right_minus=87	max_right_plus=73	neg_log10_pos_hash_p_value=51.4	new_junction_coverage=0.01	new_junction_read_count=9	polymorphism_frequency=NA	pos_hash_score=6	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=6
+JC	57	.	ADP1-WT	942464	-1	ADP1-WT	943620	1	0	alignment_overlap=0	coverage_minus=4	coverage_plus=2	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=100	key=ADP1-WT__942464__-1__ADP1-WT__943620__1__0____101__101__1__1	max_left=64	max_left_minus=64	max_left_plus=34	max_min_left=34	max_min_left_minus=2	max_min_left_plus=34	max_min_right=37	max_min_right_minus=37	max_min_right_plus=0	max_pos_hash_score=200	max_right=99	max_right_minus=99	max_right_plus=67	neg_log10_pos_hash_p_value=54.6	new_junction_coverage=0.01	new_junction_read_count=8	polymorphism_frequency=NA	pos_hash_score=3	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=6
+JC	58	.	ADP1-WT	942541	-1	ADP1-WT	943632	1	0	alignment_overlap=2	coverage_minus=0	coverage_plus=6	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=98	key=ADP1-WT__942541__-1__ADP1-WT__943630__1__2____101__101__1__1	max_left=62	max_left_minus=0	max_left_plus=62	max_min_left=47	max_min_left_minus=0	max_min_left_plus=47	max_min_right=37	max_min_right_minus=0	max_min_right_plus=37	max_pos_hash_score=196	max_right=85	max_right_minus=0	max_right_plus=85	neg_log10_pos_hash_p_value=51.9	new_junction_coverage=0.01	new_junction_read_count=7	polymorphism_frequency=NA	pos_hash_score=5	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=2	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=6
+JC	59	.	ADP1-WT	942542	-1	ADP1-WT	2726453	1	0	alignment_overlap=6	coverage_minus=2	coverage_plus=1	flanking_left=101	flanking_right=101	frequency=1.548e-02	junction_possible_overlap_registers=94	key=ADP1-WT__942548__-1__ADP1-WT__2726453__1__6____101__101__0__0	max_left=86	max_left_minus=85	max_left_plus=86	max_min_left=1	max_min_left_minus=1	max_min_left_plus=0	max_min_right=10	max_min_right_minus=10	max_min_right_plus=9	max_pos_hash_score=188	max_right=94	max_right_minus=94	max_right_plus=9	neg_log10_pos_hash_p_value=53.3	new_junction_coverage=0.00	new_junction_read_count=3	polymorphism_frequency=1.548e-02	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.29	side_2_overlap=6	side_2_possible_overlap_registers=100	side_2_read_count=203	side_2_redundant=0	total_non_overlap_reads=3
+JC	60	.	ADP1-WT	942548	-1	ADP1-WT	943624	1	0	alignment_overlap=4	coverage_minus=3	coverage_plus=2	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=96	key=ADP1-WT__942548__-1__ADP1-WT__943620__1__4____101__101__0__1	max_left=88	max_left_minus=87	max_left_plus=88	max_min_left=0	max_min_left_minus=0	max_min_left_plus=0	max_min_right=34	max_min_right_minus=34	max_min_right_plus=16	max_pos_hash_score=192	max_right=34	max_right_minus=34	max_right_plus=16	neg_log10_pos_hash_p_value=51.5	new_junction_coverage=0.04	new_junction_read_count=30	polymorphism_frequency=NA	pos_hash_score=5	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=4	side_1_read_count=NA	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=5
+JC	61	.	ADP1-WT	944853	-1	ADP1-WT	1799595	1	0	alignment_overlap=4	coverage_minus=3	coverage_plus=1	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=96	key=ADP1-WT__944857__-1__ADP1-WT__1799595__1__4____101__101__1__0	max_left=71	max_left_minus=71	max_left_plus=58	max_min_left=0	max_min_left_minus=0	max_min_left_plus=0	max_min_right=47	max_min_right_minus=47	max_min_right_plus=39	max_pos_hash_score=192	max_right=47	max_right_minus=47	max_right_plus=39	neg_log10_pos_hash_p_value=53.8	new_junction_coverage=0.03	new_junction_read_count=20	polymorphism_frequency=NA	pos_hash_score=3	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=4	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=0	total_non_overlap_reads=4
+JC	62	.	ADP1-WT	944861	-1	ADP1-WT	1799604	1	0	alignment_overlap=3	coverage_minus=4	coverage_plus=1	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=97	key=ADP1-WT__944861__-1__ADP1-WT__1799601__1__3____101__101__0__1	max_left=69	max_left_minus=50	max_left_plus=69	max_min_left=24	max_min_left_minus=24	max_min_left_plus=0	max_min_right=48	max_min_right_minus=48	max_min_right_plus=29	max_pos_hash_score=194	max_right=73	max_right_minus=73	max_right_plus=29	neg_log10_pos_hash_p_value=54.0	new_junction_coverage=0.01	new_junction_read_count=7	polymorphism_frequency=NA	pos_hash_score=3	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=3	side_1_read_count=NA	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=5
+JC	63	.	ADP1-WT	1248191	1	ADP1-WT	1800838	-1	-1	alignment_overlap=-1	coverage_minus=3	coverage_plus=3	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=99	key=ADP1-WT__1248191__1__ADP1-WT__1800838__-1__-1__A__101__101__1__1	max_left=67	max_left_minus=64	max_left_plus=67	max_min_left=46	max_min_left_minus=46	max_min_left_plus=46	max_min_right=32	max_min_right_minus=30	max_min_right_plus=32	max_pos_hash_score=198	max_right=85	max_right_minus=85	max_right_plus=71	neg_log10_pos_hash_p_value=51.1	new_junction_coverage=0.02	new_junction_read_count=17	polymorphism_frequency=NA	pos_hash_score=6	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=6	unique_read_sequence=A
+JC	64	.	ADP1-WT	1248192	1	ADP1-WT	1326404	1	0	alignment_overlap=3	coverage_minus=90	coverage_plus=109	flanking_left=101	flanking_right=101	frequency=3.328e-01	junction_possible_overlap_registers=97	key=ADP1-WT__1248192__1__ADP1-WT__1326401__1__3____101__101__1__0	max_left=94	max_left_minus=94	max_left_plus=94	max_min_left=48	max_min_left_minus=48	max_min_left_plus=48	max_min_right=49	max_min_right_minus=49	max_min_right_plus=48	max_pos_hash_score=194	max_right=97	max_right_minus=95	max_right_plus=97	neg_log10_pos_hash_p_value=8.6	new_junction_coverage=0.32	new_junction_read_count=220	polymorphism_frequency=3.328e-01	pos_hash_score=115	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=3	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.65	side_2_overlap=0	side_2_possible_overlap_registers=97	side_2_read_count=441	side_2_redundant=0	total_non_overlap_reads=199
+JC	65	.	ADP1-WT	1248192	1	ADP1-WT	1800840	-1	0	alignment_overlap=0	coverage_minus=1	coverage_plus=3	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=100	key=ADP1-WT__1248192__1__ADP1-WT__1800840__-1__0____101__101__1__0	max_left=45	max_left_minus=37	max_left_plus=45	max_min_left=45	max_min_left_minus=37	max_min_left_plus=45	max_min_right=0	max_min_right_minus=0	max_min_right_plus=0	max_pos_hash_score=200	max_right=77	max_right_minus=64	max_right_plus=77	neg_log10_pos_hash_p_value=54.6	new_junction_coverage=0.04	new_junction_read_count=31	polymorphism_frequency=NA	pos_hash_score=3	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=0	total_non_overlap_reads=4
+JC	66	.	ADP1-WT	1248192	1	ADP1-WT	1858447	1	0	alignment_overlap=0	coverage_minus=2	coverage_plus=2	flanking_left=101	flanking_right=101	frequency=7.485e-03	junction_possible_overlap_registers=100	key=ADP1-WT__1248192__1__ADP1-WT__1858447__1__0____101__101__1__0	max_left=74	max_left_minus=58	max_left_plus=74	max_min_left=8	max_min_left_minus=8	max_min_left_plus=0	max_min_right=43	max_min_right_minus=43	max_min_right_plus=28	max_pos_hash_score=200	max_right=93	max_right_minus=93	max_right_plus=28	neg_log10_pos_hash_p_value=53.5	new_junction_coverage=0.01	new_junction_read_count=5	polymorphism_frequency=7.485e-03	pos_hash_score=4	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.94	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=663	side_2_redundant=0	total_non_overlap_reads=4
+JC	67	.	ADP1-WT	1248192	1	ADP1-WT	3119096	-1	0	alignment_overlap=0	coverage_minus=1	coverage_plus=3	flanking_left=101	flanking_right=101	frequency=5.755e-03	junction_possible_overlap_registers=100	key=ADP1-WT__1248192__1__ADP1-WT__3119096__-1__0____101__101__1__0	max_left=67	max_left_minus=48	max_left_plus=67	max_min_left=48	max_min_left_minus=48	max_min_left_plus=41	max_min_right=34	max_min_right_minus=0	max_min_right_plus=34	max_pos_hash_score=200	max_right=60	max_right_minus=53	max_right_plus=60	neg_log10_pos_hash_p_value=54.6	new_junction_coverage=0.01	new_junction_read_count=4	polymorphism_frequency=5.755e-03	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.98	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=691	side_2_redundant=0	total_non_overlap_reads=4
+JC	68	.	ADP1-WT	1248194	1	ADP1-WT	1249432	-1	0	alignment_overlap=2	coverage_minus=0	coverage_plus=8	flanking_left=101	flanking_right=101	frequency=NA	junction_possible_overlap_registers=98	key=ADP1-WT__1248192__1__ADP1-WT__1249432__-1__2____101__101__1__0	max_left=74	max_left_minus=0	max_left_plus=74	max_min_left=49	max_min_left_minus=0	max_min_left_plus=49	max_min_right=24	max_min_right_minus=0	max_min_right_plus=24	max_pos_hash_score=196	max_right=76	max_right_minus=0	max_right_plus=76	neg_log10_pos_hash_p_value=51.9	new_junction_coverage=0.04	new_junction_read_count=27	polymorphism_frequency=NA	pos_hash_score=5	prediction=unknown	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=2	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=0	total_non_overlap_reads=8
+JC	69	.	ADP1-WT	1249428	-1	ADP1-WT	1326406	-1	0	alignment_overlap=1	coverage_minus=99	coverage_plus=90	flanking_left=101	flanking_right=101	frequency=3.140e-01	junction_possible_overlap_registers=99	key=ADP1-WT__1249428__-1__ADP1-WT__1326407__-1__1____101__101__1__0	max_left=96	max_left_minus=96	max_left_plus=96	max_min_left=49	max_min_left_minus=49	max_min_left_plus=48	max_min_right=50	max_min_right_minus=50	max_min_right_plus=49	max_pos_hash_score=198	max_right=99	max_right_minus=98	max_right_plus=99	neg_log10_pos_hash_p_value=9.8	new_junction_coverage=0.31	new_junction_read_count=216	polymorphism_frequency=3.140e-01	pos_hash_score=112	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=1	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.68	side_2_overlap=0	side_2_possible_overlap_registers=99	side_2_read_count=472	side_2_redundant=0	total_non_overlap_reads=189
+JC	70	.	ADP1-WT	1249428	-1	ADP1-WT	2099588	1	0	alignment_overlap=0	coverage_minus=205	coverage_plus=239	flanking_left=101	flanking_right=101	frequency=6.815e-01	junction_possible_overlap_registers=100	key=ADP1-WT__1249428__-1__ADP1-WT__2099588__1__0____101__101__1__0	max_left=98	max_left_minus=98	max_left_plus=97	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=51	max_min_right_minus=50	max_min_right_plus=51	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=1.1	new_junction_coverage=0.66	new_junction_read_count=460	polymorphism_frequency=6.815e-01	pos_hash_score=169	prediction=polymorphism	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.31	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=215	side_2_redundant=0	total_non_overlap_reads=444
+JC	71	.	ADP1-WT	1249428	-1	ADP1-WT	2748474	1	0	alignment_overlap=0	coverage_minus=179	coverage_plus=224	flanking_left=101	flanking_right=101	frequency=5.976e-01	junction_possible_overlap_registers=100	key=ADP1-WT__1249428__-1__ADP1-WT__2748474__1__0____101__101__1__0	max_left=97	max_left_minus=97	max_left_plus=96	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=1.9	new_junction_coverage=0.58	new_junction_read_count=404	polymorphism_frequency=5.976e-01	pos_hash_score=161	prediction=polymorphism	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.39	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=272	side_2_redundant=0	total_non_overlap_reads=403
+JC	72	.	ADP1-WT	1249428	-1	ADP1-WT	2754206	-1	0	alignment_overlap=0	coverage_minus=100	coverage_plus=105	flanking_left=101	flanking_right=101	frequency=3.176e-01	junction_possible_overlap_registers=100	key=ADP1-WT__1249428__-1__ADP1-WT__2754206__-1__0____101__101__1__0	max_left=98	max_left_minus=98	max_left_plus=98	max_min_left=50	max_min_left_minus=50	max_min_left_plus=49	max_min_right=50	max_min_right_minus=49	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=8.0	new_junction_coverage=0.30	new_junction_read_count=208	polymorphism_frequency=3.176e-01	pos_hash_score=122	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.64	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=447	side_2_redundant=0	total_non_overlap_reads=205
+JC	73	.	ADP1-WT	1249428	-1	ADP1-WT	3002400	-1	0	alignment_overlap=0	coverage_minus=382	coverage_plus=389	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__1249428__-1__ADP1-WT__3002400__-1__0____101__101__1__0	max_left=99	max_left_minus=99	max_left_plus=99	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=0.0	new_junction_coverage=1.17	new_junction_read_count=822	polymorphism_frequency=9.913e-01	pos_hash_score=190	prediction=consensus	read_count_offset=3	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.01	side_2_overlap=0	side_2_possible_overlap_registers=97	side_2_read_count=7	side_2_redundant=0	total_non_overlap_reads=771
+JC	74	.	ADP1-WT	1326401	1	ADP1-WT	2726458	1	0	alignment_overlap=3	coverage_minus=22	coverage_plus=16	flanking_left=101	flanking_right=101	frequency=1.077e-01	junction_possible_overlap_registers=97	key=ADP1-WT__1326401__1__ADP1-WT__2726455__1__3____101__101__0__0	max_left=97	max_left_minus=97	max_left_plus=95	max_min_left=0	max_min_left_minus=0	max_min_left_plus=0	max_min_right=14	max_min_right_minus=13	max_min_right_plus=14	max_pos_hash_score=194	max_right=14	max_right_minus=13	max_right_plus=14	neg_log10_pos_hash_p_value=38.4	new_junction_coverage=0.06	new_junction_read_count=39	polymorphism_frequency=1.077e-01	pos_hash_score=23	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.66	side_1_overlap=3	side_1_possible_overlap_registers=100	side_1_read_count=461	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.29	side_2_overlap=0	side_2_possible_overlap_registers=97	side_2_read_count=199	side_2_redundant=0	total_non_overlap_reads=38
+JC	75	.	ADP1-WT	1326407	-1	ADP1-WT	2727719	-1	-2	alignment_overlap=-2	coverage_minus=7	coverage_plus=5	flanking_left=101	flanking_right=101	frequency=2.066e-02	junction_possible_overlap_registers=98	key=ADP1-WT__1326407__-1__ADP1-WT__2727719__-1__-2__GA__101__101__0__0	max_left=98	max_left_minus=98	max_left_plus=95	max_min_left=0	max_min_left_minus=0	max_min_left_plus=0	max_min_right=6	max_min_right_minus=6	max_min_right_plus=6	max_pos_hash_score=196	max_right=6	max_right_minus=6	max_right_plus=6	neg_log10_pos_hash_p_value=48.2	new_junction_coverage=0.02	new_junction_read_count=12	polymorphism_frequency=2.066e-02	pos_hash_score=9	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.68	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=475	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.98	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=686	side_2_redundant=0	total_non_overlap_reads=12	unique_read_sequence=GA
+JC	76	.	ADP1-WT	1799601	1	ADP1-WT	1810496	1	0	alignment_overlap=0	coverage_minus=2	coverage_plus=3	flanking_left=101	flanking_right=101	frequency=8.996e-03	junction_possible_overlap_registers=100	key=ADP1-WT__1799601__1__ADP1-WT__1810496__1__0____101__101__1__0	max_left=99	max_left_minus=70	max_left_plus=99	max_min_left=27	max_min_left_minus=27	max_min_left_plus=0	max_min_right=31	max_min_right_minus=31	max_min_right_plus=2	max_pos_hash_score=200	max_right=74	max_right_minus=74	max_right_plus=2	neg_log10_pos_hash_p_value=54.6	new_junction_coverage=0.01	new_junction_read_count=6	polymorphism_frequency=8.996e-03	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.94	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=661	side_2_redundant=0	total_non_overlap_reads=5
+JC	77	.	ADP1-WT	1799601	1	ADP1-WT	2099590	-1	0	alignment_overlap=1	coverage_minus=225	coverage_plus=207	flanking_left=101	flanking_right=101	frequency=6.677e-01	junction_possible_overlap_registers=99	key=ADP1-WT__1799601__1__ADP1-WT__2099591__-1__1____101__101__1__0	max_left=98	max_left_minus=98	max_left_plus=98	max_min_left=49	max_min_left_minus=48	max_min_left_plus=49	max_min_right=50	max_min_right_minus=49	max_min_right_plus=50	max_pos_hash_score=198	max_right=99	max_right_minus=99	max_right_plus=98	neg_log10_pos_hash_p_value=1.2	new_junction_coverage=0.63	new_junction_read_count=438	polymorphism_frequency=6.677e-01	pos_hash_score=166	prediction=polymorphism	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=1	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.31	side_2_overlap=0	side_2_possible_overlap_registers=99	side_2_read_count=218	side_2_redundant=0	total_non_overlap_reads=432
+JC	78	.	ADP1-WT	1799601	1	ADP1-WT	2100817	-1	0	alignment_overlap=1	coverage_minus=0	coverage_plus=3	flanking_left=101	flanking_right=101	frequency=8.143e-03	junction_possible_overlap_registers=99	key=ADP1-WT__1799601__1__ADP1-WT__2100818__-1__1____101__101__1__0	max_left=88	max_left_minus=0	max_left_plus=88	max_min_left=0	max_min_left_minus=0	max_min_left_plus=0	max_min_right=45	max_min_right_minus=0	max_min_right_plus=45	max_pos_hash_score=198	max_right=45	max_right_minus=0	max_right_plus=45	neg_log10_pos_hash_p_value=54.4	new_junction_coverage=0.01	new_junction_read_count=5	polymorphism_frequency=8.143e-03	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=1	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.88	side_2_overlap=0	side_2_possible_overlap_registers=99	side_2_read_count=609	side_2_redundant=0	total_non_overlap_reads=3
+JC	79	.	ADP1-WT	1799601	1	ADP1-WT	2248855	-1	0	alignment_overlap=0	coverage_minus=228	coverage_plus=231	flanking_left=101	flanking_right=101	frequency=7.124e-01	junction_possible_overlap_registers=100	key=ADP1-WT__1799601__1__ADP1-WT__2248855__-1__0____101__101__1__0	max_left=97	max_left_minus=97	max_left_plus=97	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=1.6	new_junction_coverage=0.68	new_junction_read_count=478	polymorphism_frequency=7.124e-01	pos_hash_score=164	prediction=polymorphism	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.27	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=193	side_2_redundant=0	total_non_overlap_reads=459
+JC	80	.	ADP1-WT	1799601	1	ADP1-WT	2743176	1	0	alignment_overlap=0	coverage_minus=1	coverage_plus=2	flanking_left=101	flanking_right=101	frequency=3.672e-03	junction_possible_overlap_registers=100	key=ADP1-WT__1799601__1__ADP1-WT__2743176__1__0____101__101__1__0	max_left=94	max_left_minus=37	max_left_plus=94	max_min_left=37	max_min_left_minus=37	max_min_left_plus=0	max_min_right=39	max_min_right_minus=0	max_min_right_plus=39	max_pos_hash_score=200	max_right=64	max_right_minus=64	max_right_plus=39	neg_log10_pos_hash_p_value=54.6	new_junction_coverage=0.00	new_junction_read_count=3	polymorphism_frequency=3.672e-03	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=1.16	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=814	side_2_redundant=0	total_non_overlap_reads=3
+JC	81	.	ADP1-WT	1799601	1	ADP1-WT	2748476	-1	0	alignment_overlap=0	coverage_minus=270	coverage_plus=217	flanking_left=101	flanking_right=101	frequency=6.516e-01	junction_possible_overlap_registers=100	key=ADP1-WT__1799601__1__ADP1-WT__2748476__-1__0____101__101__1__0	max_left=97	max_left_minus=97	max_left_plus=96	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=0.4	new_junction_coverage=0.70	new_junction_read_count=490	polymorphism_frequency=6.516e-01	pos_hash_score=177	prediction=polymorphism	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.37	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=262	side_2_redundant=0	total_non_overlap_reads=487
+JC	82	.	ADP1-WT	1799601	1	ADP1-WT	2755073	1	0	alignment_overlap=0	coverage_minus=424	coverage_plus=341	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__1799601__1__ADP1-WT__2755073__1__0____101__101__1__0	max_left=98	max_left_minus=98	max_left_plus=98	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=0.1	new_junction_coverage=1.13	new_junction_read_count=790	polymorphism_frequency=9.961e-01	pos_hash_score=186	prediction=consensus	read_count_offset=3	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.00	side_2_overlap=0	side_2_possible_overlap_registers=97	side_2_read_count=3	side_2_redundant=0	total_non_overlap_reads=765
+JC	83	.	ADP1-WT	1799601	1	ADP1-WT	3002398	1	0	alignment_overlap=0	coverage_minus=388	coverage_plus=395	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__1799601__1__ADP1-WT__3002398__1__0____101__101__1__0	max_left=99	max_left_minus=99	max_left_plus=99	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=0.0	new_junction_coverage=1.15	new_junction_read_count=809	polymorphism_frequency=9.912e-01	pos_hash_score=190	prediction=consensus	read_count_offset=3	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.01	side_2_overlap=0	side_2_possible_overlap_registers=97	side_2_read_count=7	side_2_redundant=0	total_non_overlap_reads=783
+JC	84	.	ADP1-WT	1799601	1	ADP1-WT	3079737	-1	0	alignment_overlap=1	coverage_minus=408	coverage_plus=411	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=99	key=ADP1-WT__1799601__1__ADP1-WT__3079738__-1__1____101__101__1__0	max_left=98	max_left_minus=98	max_left_plus=98	max_min_left=49	max_min_left_minus=49	max_min_left_plus=49	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=198	max_right=99	max_right_minus=99	max_right_plus=99	neg_log10_pos_hash_p_value=0.0	new_junction_coverage=1.21	new_junction_read_count=844	polymorphism_frequency=9.988e-01	pos_hash_score=191	prediction=consensus	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=1	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.00	side_2_overlap=0	side_2_possible_overlap_registers=99	side_2_read_count=1	side_2_redundant=0	total_non_overlap_reads=819
+JC	85	.	ADP1-WT	1800837	-1	ADP1-WT	1843385	1	0	alignment_overlap=1	coverage_minus=6	coverage_plus=1	flanking_left=101	flanking_right=101	frequency=1.672e-02	junction_possible_overlap_registers=99	key=ADP1-WT__1800837__-1__ADP1-WT__1843384__1__1____101__101__1__0	max_left=98	max_left_minus=98	max_left_plus=78	max_min_left=47	max_min_left_minus=47	max_min_left_plus=0	max_min_right=31	max_min_right_minus=31	max_min_right_plus=22	max_pos_hash_score=198	max_right=74	max_right_minus=74	max_right_plus=22	neg_log10_pos_hash_p_value=50.2	new_junction_coverage=0.01	new_junction_read_count=10	polymorphism_frequency=1.672e-02	pos_hash_score=7	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=1	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.85	side_2_overlap=0	side_2_possible_overlap_registers=99	side_2_read_count=588	side_2_redundant=0	total_non_overlap_reads=7
+JC	86	.	ADP1-WT	1800837	-1	ADP1-WT	2100815	1	0	alignment_overlap=1	coverage_minus=3	coverage_plus=1	flanking_left=101	flanking_right=101	frequency=8.052e-03	junction_possible_overlap_registers=99	key=ADP1-WT__1800837__-1__ADP1-WT__2100814__1__1____101__101__1__0	max_left=96	max_left_minus=96	max_left_plus=31	max_min_left=47	max_min_left_minus=47	max_min_left_plus=31	max_min_right=19	max_min_right_minus=19	max_min_right_plus=0	max_pos_hash_score=198	max_right=69	max_right_minus=53	max_right_plus=69	neg_log10_pos_hash_p_value=53.2	new_junction_coverage=0.01	new_junction_read_count=5	polymorphism_frequency=8.052e-03	pos_hash_score=4	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=1	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.89	side_2_overlap=0	side_2_possible_overlap_registers=99	side_2_read_count=616	side_2_redundant=0	total_non_overlap_reads=4
+JC	87	.	ADP1-WT	1800837	-1	ADP1-WT	2248853	1	0	alignment_overlap=1	coverage_minus=175	coverage_plus=228	flanking_left=101	flanking_right=101	frequency=7.017e-01	junction_possible_overlap_registers=99	key=ADP1-WT__1800837__-1__ADP1-WT__2248852__1__1____101__101__1__0	max_left=94	max_left_minus=94	max_left_plus=93	max_min_left=49	max_min_left_minus=49	max_min_left_plus=49	max_min_right=50	max_min_right_minus=50	max_min_right_plus=49	max_pos_hash_score=198	max_right=99	max_right_minus=99	max_right_plus=99	neg_log10_pos_hash_p_value=1.8	new_junction_coverage=0.66	new_junction_read_count=461	polymorphism_frequency=7.017e-01	pos_hash_score=160	prediction=polymorphism	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=1	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.28	side_2_overlap=0	side_2_possible_overlap_registers=99	side_2_read_count=196	side_2_redundant=0	total_non_overlap_reads=403
+JC	88	.	ADP1-WT	1800837	-1	ADP1-WT	2732482	1	0	alignment_overlap=0	coverage_minus=2	coverage_plus=3	flanking_left=101	flanking_right=101	frequency=8.130e-03	junction_possible_overlap_registers=100	key=ADP1-WT__1800837__-1__ADP1-WT__2732482__1__0____101__101__1__0	max_left=99	max_left_minus=99	max_left_plus=56	max_min_left=36	max_min_left_minus=0	max_min_left_plus=36	max_min_right=45	max_min_right_minus=2	max_min_right_plus=45	max_pos_hash_score=200	max_right=65	max_right_minus=2	max_right_plus=65	neg_log10_pos_hash_p_value=54.6	new_junction_coverage=0.01	new_junction_read_count=6	polymorphism_frequency=8.130e-03	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=1.04	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=732	side_2_redundant=0	total_non_overlap_reads=5
+JC	89	.	ADP1-WT	1800837	-1	ADP1-WT	2743178	-1	0	alignment_overlap=0	coverage_minus=3	coverage_plus=0	flanking_left=101	flanking_right=101	frequency=3.695e-03	junction_possible_overlap_registers=100	key=ADP1-WT__1800837__-1__ADP1-WT__2743178__-1__0____101__101__1__0	max_left=56	max_left_minus=56	max_left_plus=0	max_min_left=31	max_min_left_minus=31	max_min_left_plus=0	max_min_right=45	max_min_right_minus=45	max_min_right_plus=0	max_pos_hash_score=200	max_right=95	max_right_minus=95	max_right_plus=0	neg_log10_pos_hash_p_value=54.6	new_junction_coverage=0.00	new_junction_read_count=3	polymorphism_frequency=3.695e-03	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=1.15	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=809	side_2_redundant=0	total_non_overlap_reads=3
+JC	90	.	ADP1-WT	1800837	-1	ADP1-WT	2755075	-1	0	alignment_overlap=0	coverage_minus=253	coverage_plus=227	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__1800837__-1__ADP1-WT__2755075__-1__0____101__101__1__0	max_left=99	max_left_minus=99	max_left_plus=99	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=49	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=1.0	new_junction_coverage=0.69	new_junction_read_count=487	polymorphism_frequency=9.937e-01	pos_hash_score=170	prediction=consensus	read_count_offset=3	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.00	side_2_overlap=0	side_2_possible_overlap_registers=97	side_2_read_count=3	side_2_redundant=0	total_non_overlap_reads=480
+JC	91	.	ADP1-WT	1800837	-1	ADP1-WT	3079967	1	0	alignment_overlap=0	coverage_minus=374	coverage_plus=444	flanking_left=101	flanking_right=101	frequency=1	junction_possible_overlap_registers=100	key=ADP1-WT__1800837__-1__ADP1-WT__3079967__1__0____101__101__1__0	max_left=99	max_left_minus=99	max_left_plus=99	max_min_left=50	max_min_left_minus=50	max_min_left_plus=50	max_min_right=50	max_min_right_minus=50	max_min_right_plus=50	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=0.0	new_junction_coverage=1.18	new_junction_read_count=825	polymorphism_frequency=9.988e-01	pos_hash_score=191	prediction=consensus	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.00	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=1	side_2_redundant=0	total_non_overlap_reads=818
+JC	92	.	ADP1-WT	1858447	1	ADP1-WT	2726455	1	0	alignment_overlap=0	coverage_minus=0	coverage_plus=3	flanking_left=101	flanking_right=101	frequency=6.881e-03	junction_possible_overlap_registers=100	key=ADP1-WT__1858447__1__ADP1-WT__2726455__1__0____101__101__0__0	max_left=93	max_left_minus=0	max_left_plus=93	max_min_left=3	max_min_left_minus=0	max_min_left_plus=3	max_min_right=8	max_min_right_minus=0	max_min_right_plus=8	max_pos_hash_score=200	max_right=100	max_right_minus=0	max_right_plus=100	neg_log10_pos_hash_p_value=54.6	new_junction_coverage=0.00	new_junction_read_count=3	polymorphism_frequency=6.881e-03	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.94	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=663	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.29	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=203	side_2_redundant=0	total_non_overlap_reads=3
+JC	93	.	ADP1-WT	2332692	-1	ADP1-WT	2332753	1	0	alignment_overlap=8	coverage_minus=2	coverage_plus=2	flanking_left=101	flanking_right=101	frequency=1.526e-02	junction_possible_overlap_registers=92	key=ADP1-WT__2332692__-1__ADP1-WT__2332745__1__8____101__101__0__0	max_left=88	max_left_minus=88	max_left_plus=80	max_min_left=0	max_min_left_minus=0	max_min_left_plus=0	max_min_right=26	max_min_right_minus=15	max_min_right_plus=26	max_pos_hash_score=184	max_right=26	max_right_minus=15	max_right_plus=26	neg_log10_pos_hash_p_value=51.7	new_junction_coverage=0.01	new_junction_read_count=6	polymorphism_frequency=1.526e-02	pos_hash_score=4	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.60	side_1_overlap=8	side_1_possible_overlap_registers=100	side_1_read_count=422	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.60	side_2_overlap=0	side_2_possible_overlap_registers=92	side_2_read_count=386	side_2_redundant=0	total_non_overlap_reads=4
+JC	94	.	ADP1-WT	2332716	-1	ADP1-WT	2332843	1	0	alignment_overlap=26	coverage_minus=1	coverage_plus=3	flanking_left=101	flanking_right=101	frequency=1.559e-02	junction_possible_overlap_registers=74	key=ADP1-WT__2332716__-1__ADP1-WT__2332817__1__26____101__101__0__0	max_left=72	max_left_minus=41	max_left_plus=72	max_min_left=34	max_min_left_minus=0	max_min_left_plus=34	max_min_right=34	max_min_right_minus=34	max_min_right_plus=5	max_pos_hash_score=148	max_right=41	max_right_minus=34	max_right_plus=41	neg_log10_pos_hash_p_value=46.9	new_junction_coverage=0.01	new_junction_read_count=5	polymorphism_frequency=1.559e-02	pos_hash_score=4	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.59	side_1_overlap=26	side_1_possible_overlap_registers=100	side_1_read_count=417	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.62	side_2_overlap=0	side_2_possible_overlap_registers=74	side_2_read_count=323	side_2_redundant=0	total_non_overlap_reads=4
+JC	95	.	ADP1-WT	2725446	-1	ADP1-WT	2726456	1	0	alignment_overlap=2	coverage_minus=218	coverage_plus=205	flanking_left=101	flanking_right=101	frequency=6.726e-01	junction_possible_overlap_registers=98	key=ADP1-WT__2725446__-1__ADP1-WT__2726454__1__2____101__101__0__0	max_left=98	max_left_minus=98	max_left_plus=98	max_min_left=49	max_min_left_minus=49	max_min_left_plus=49	max_min_right=49	max_min_right_minus=49	max_min_right_plus=49	max_pos_hash_score=196	max_right=98	max_right_minus=98	max_right_plus=98	neg_log10_pos_hash_p_value=1.1	new_junction_coverage=0.62	new_junction_read_count=425	polymorphism_frequency=6.726e-01	pos_hash_score=165	prediction=polymorphism	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.31	side_1_overlap=2	side_1_possible_overlap_registers=100	side_1_read_count=216	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.29	side_2_overlap=0	side_2_possible_overlap_registers=98	side_2_read_count=202	side_2_redundant=0	total_non_overlap_reads=423
+JC	96	.	ADP1-WT	2727719	-1	ADP1-WT	2754206	-1	-3	alignment_overlap=-3	coverage_minus=11	coverage_plus=6	flanking_left=101	flanking_right=101	frequency=2.998e-02	junction_possible_overlap_registers=97	key=ADP1-WT__2727719__-1__ADP1-WT__2754206__-1__-3__TCA__101__101__0__0	max_left=6	max_left_minus=6	max_left_plus=5	max_min_left=6	max_min_left_minus=6	max_min_left_plus=5	max_min_right=0	max_min_right_minus=0	max_min_right_plus=0	max_pos_hash_score=194	max_right=97	max_right_minus=97	max_right_plus=96	neg_log10_pos_hash_p_value=48.8	new_junction_coverage=0.02	new_junction_read_count=17	polymorphism_frequency=2.998e-02	pos_hash_score=8	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.98	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=686	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.64	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=448	side_2_redundant=0	total_non_overlap_reads=17	unique_read_sequence=TCA
+JC	97	.	ADP1-WT	2727722	-1	ADP1-WT	2754206	-1	0	alignment_overlap=0	coverage_minus=2	coverage_plus=2	flanking_left=101	flanking_right=101	frequency=1.039e-02	junction_possible_overlap_registers=100	key=ADP1-WT__2727722__-1__ADP1-WT__2754206__-1__0____101__101__0__0	max_left=2	max_left_minus=2	max_left_plus=1	max_min_left=2	max_min_left_minus=2	max_min_left_plus=1	max_min_right=0	max_min_right_minus=0	max_min_right_plus=0	max_pos_hash_score=200	max_right=100	max_right_minus=100	max_right_plus=100	neg_log10_pos_hash_p_value=54.6	new_junction_coverage=0.01	new_junction_read_count=6	polymorphism_frequency=1.039e-02	pos_hash_score=3	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW,FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.99	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=696	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.64	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=447	side_2_redundant=0	total_non_overlap_reads=4
+JC	98	.	ADP1-WT	2845987	1	ADP1-WT	2846262	-1	-15	alignment_overlap=-15	coverage_minus=0	coverage_plus=9	flanking_left=101	flanking_right=101	frequency=6.502e-01	junction_possible_overlap_registers=85	key=ADP1-WT__2845987__1__ADP1-WT__2846262__-1__-15__TACAGAATTCACAGG__101__101__0__0	max_left=68	max_left_minus=0	max_left_plus=68	max_min_left=32	max_min_left_minus=0	max_min_left_plus=32	max_min_right=33	max_min_right_minus=0	max_min_right_plus=33	max_pos_hash_score=170	max_right=79	max_right_minus=0	max_right_plus=79	neg_log10_pos_hash_p_value=45.0	new_junction_coverage=1.73	new_junction_read_count=1031	polymorphism_frequency=6.502e-01	pos_hash_score=9	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=1.02	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=715	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.84	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=590	side_2_redundant=0	total_non_overlap_reads=9	unique_read_sequence=TACAGAATTCACAGG
+JC	99	.	ADP1-WT	2845987	1	ADP1-WT	2846351	-1	-18	alignment_overlap=-18	coverage_minus=6	coverage_plus=5	flanking_left=101	flanking_right=101	frequency=4.496e-01	junction_possible_overlap_registers=82	key=ADP1-WT__2845987__1__ADP1-WT__2846351__-1__-18__TACAGAATTCACAGGTGT__101__101__0__0	max_left=68	max_left_minus=46	max_left_plus=68	max_min_left=38	max_min_left_minus=38	max_min_left_plus=0	max_min_right=40	max_min_right_minus=40	max_min_right_plus=30	max_pos_hash_score=164	max_right=51	max_right_minus=51	max_right_plus=30	neg_log10_pos_hash_p_value=43.3	new_junction_coverage=0.85	new_junction_read_count=489	polymorphism_frequency=4.496e-01	pos_hash_score=10	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=1.02	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=715	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=1.06	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=745	side_2_redundant=0	total_non_overlap_reads=11	unique_read_sequence=TACAGAATTCACAGGTGT
+JC	100	.	ADP1-WT	2845987	1	ADP1-WT	2846516	-1	-19	alignment_overlap=-19	coverage_minus=0	coverage_plus=9	flanking_left=101	flanking_right=101	frequency=6.387e-01	junction_possible_overlap_registers=81	key=ADP1-WT__2845987__1__ADP1-WT__2846516__-1__-19__TACAGAATTCACAGGTGTA__101__101__0__0	max_left=68	max_left_minus=0	max_left_plus=68	max_min_left=32	max_min_left_minus=0	max_min_left_plus=32	max_min_right=29	max_min_right_minus=0	max_min_right_plus=29	max_pos_hash_score=162	max_right=75	max_right_minus=0	max_right_plus=75	neg_log10_pos_hash_p_value=43.9	new_junction_coverage=1.76	new_junction_read_count=998	polymorphism_frequency=6.387e-01	pos_hash_score=9	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=1.02	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=715	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.97	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=679	side_2_redundant=0	total_non_overlap_reads=9	unique_read_sequence=TACAGAATTCACAGGTGTA
+JC	101	.	ADP1-WT	2846351	-1	ADP1-WT	2846438	1	-17	alignment_overlap=-17	coverage_minus=0	coverage_plus=6	flanking_left=101	flanking_right=101	frequency=4.287e-01	junction_possible_overlap_registers=83	key=ADP1-WT__2846351__-1__ADP1-WT__2846438__1__-17__ACACCTGTGAATTCTGT__101__101__0__0	max_left=51	max_left_minus=0	max_left_plus=51	max_min_left=40	max_min_left_minus=0	max_min_left_plus=40	max_min_right=39	max_min_right_minus=0	max_min_right_plus=39	max_pos_hash_score=166	max_right=47	max_right_minus=0	max_right_plus=47	neg_log10_pos_hash_p_value=48.3	new_junction_coverage=0.77	new_junction_read_count=449	polymorphism_frequency=4.287e-01	pos_hash_score=5	prediction=polymorphism	reject=COVERAGE_EVENNESS_SKEW	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=1.06	side_1_overlap=0	side_1_possible_overlap_registers=100	side_1_read_count=745	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.99	side_2_overlap=0	side_2_possible_overlap_registers=100	side_2_read_count=697	side_2_redundant=0	total_non_overlap_reads=6	unique_read_sequence=ACACCTGTGAATTCTGT
+UN	102	.	ADP1-WT	18145	23690
+UN	103	.	ADP1-WT	84586	85102
+UN	104	.	ADP1-WT	85106	85108
+UN	105	.	ADP1-WT	85200	85228
+UN	106	.	ADP1-WT	85233	85240
+UN	107	.	ADP1-WT	85242	85242
+UN	108	.	ADP1-WT	85244	85245
+UN	109	.	ADP1-WT	85248	85250
+UN	110	.	ADP1-WT	85253	85255
+UN	111	.	ADP1-WT	85257	85257
+UN	112	.	ADP1-WT	85266	85266
+UN	113	.	ADP1-WT	85271	85271
+UN	114	.	ADP1-WT	85307	85307
+UN	115	.	ADP1-WT	85313	85316
+UN	116	.	ADP1-WT	85318	85734
+UN	117	.	ADP1-WT	85736	85736
+UN	118	.	ADP1-WT	85740	85753
+UN	119	.	ADP1-WT	85755	85755
+UN	120	.	ADP1-WT	85757	85757
+UN	121	.	ADP1-WT	85761	85814
+UN	122	.	ADP1-WT	85816	85817
+UN	123	.	ADP1-WT	85819	85824
+UN	124	.	ADP1-WT	85826	85826
+UN	125	.	ADP1-WT	85828	85890
+UN	126	.	ADP1-WT	85893	85897
+UN	127	.	ADP1-WT	85900	85900
+UN	128	.	ADP1-WT	85904	86318
+UN	129	.	ADP1-WT	86320	86321
+UN	130	.	ADP1-WT	86323	86327
+UN	131	.	ADP1-WT	86329	86330
+UN	132	.	ADP1-WT	86332	86346
+UN	133	.	ADP1-WT	86348	86350
+UN	134	.	ADP1-WT	86353	86353
+UN	135	.	ADP1-WT	86355	86360
+UN	136	.	ADP1-WT	86362	86366
+UN	137	.	ADP1-WT	86368	86368
+UN	138	.	ADP1-WT	86370	86370
+UN	139	.	ADP1-WT	86372	86372
+UN	140	.	ADP1-WT	86375	86382
+UN	141	.	ADP1-WT	86384	87254
+UN	142	.	ADP1-WT	87257	87257
+UN	143	.	ADP1-WT	87263	87268
+UN	144	.	ADP1-WT	87270	88301
+UN	145	.	ADP1-WT	88305	88969
+UN	146	.	ADP1-WT	88972	88974
+UN	147	.	ADP1-WT	88977	88977
+UN	148	.	ADP1-WT	88980	88983
+UN	149	.	ADP1-WT	88985	89874
+UN	150	.	ADP1-WT	89876	89878
+UN	151	.	ADP1-WT	89883	89883
+UN	152	.	ADP1-WT	89885	89886
+UN	153	.	ADP1-WT	89889	89890
+UN	154	.	ADP1-WT	89892	89892
+UN	155	.	ADP1-WT	89895	89899
+UN	156	.	ADP1-WT	89902	89904
+UN	157	.	ADP1-WT	89907	89909
+UN	158	.	ADP1-WT	89911	89912
+UN	159	.	ADP1-WT	89914	89915
+UN	160	.	ADP1-WT	89918	89922
+UN	161	.	ADP1-WT	89924	89926
+UN	162	.	ADP1-WT	89928	89928
+UN	163	.	ADP1-WT	89930	89930
+UN	164	.	ADP1-WT	89933	89936
+UN	165	.	ADP1-WT	89941	89943
+UN	166	.	ADP1-WT	89946	89952
+UN	167	.	ADP1-WT	89954	89954
+UN	168	.	ADP1-WT	89956	89964
+UN	169	.	ADP1-WT	89970	89996
+UN	170	.	ADP1-WT	90093	90120
+UN	171	.	ADP1-WT	90122	90122
+UN	172	.	ADP1-WT	90124	90143
+UN	173	.	ADP1-WT	90220	90220
+UN	174	.	ADP1-WT	90223	90224
+UN	175	.	ADP1-WT	90227	90227
+UN	176	.	ADP1-WT	90242	90243
+UN	177	.	ADP1-WT	90245	90245
+UN	178	.	ADP1-WT	90247	90248
+UN	179	.	ADP1-WT	90251	90255
+UN	180	.	ADP1-WT	90433	90438
+UN	181	.	ADP1-WT	90440	90441
+UN	182	.	ADP1-WT	90443	90461
+UN	183	.	ADP1-WT	90464	90466
+UN	184	.	ADP1-WT	90468	90468
+UN	185	.	ADP1-WT	90470	90472
+UN	186	.	ADP1-WT	90474	90766
+UN	187	.	ADP1-WT	90768	90768
+UN	188	.	ADP1-WT	90770	90771
+UN	189	.	ADP1-WT	90828	90850
+UN	190	.	ADP1-WT	90857	90940
+UN	191	.	ADP1-WT	90943	90943
+UN	192	.	ADP1-WT	90945	90946
+UN	193	.	ADP1-WT	90948	92685
+UN	194	.	ADP1-WT	92687	92687
+UN	195	.	ADP1-WT	92689	92690
+UN	196	.	ADP1-WT	92692	92692
+UN	197	.	ADP1-WT	92699	92701
+UN	198	.	ADP1-WT	92704	92704
+UN	199	.	ADP1-WT	92708	92708
+UN	200	.	ADP1-WT	92714	92714
+UN	201	.	ADP1-WT	92719	92720
+UN	202	.	ADP1-WT	92724	92724
+UN	203	.	ADP1-WT	92727	92727
+UN	204	.	ADP1-WT	92730	92730
+UN	205	.	ADP1-WT	92732	94218
+UN	206	.	ADP1-WT	94220	94223
+UN	207	.	ADP1-WT	94225	94225
+UN	208	.	ADP1-WT	94227	94229
+UN	209	.	ADP1-WT	94232	94235
+UN	210	.	ADP1-WT	94237	94239
+UN	211	.	ADP1-WT	94299	94301
+UN	212	.	ADP1-WT	94318	94318
+UN	213	.	ADP1-WT	94338	94549
+UN	214	.	ADP1-WT	94552	94555
+UN	215	.	ADP1-WT	94557	94560
+UN	216	.	ADP1-WT	94563	94563
+UN	217	.	ADP1-WT	94565	94584
+UN	218	.	ADP1-WT	94586	94586
+UN	219	.	ADP1-WT	94588	94590
+UN	220	.	ADP1-WT	94592	94658
+UN	221	.	ADP1-WT	94660	94662
+UN	222	.	ADP1-WT	94664	94665
+UN	223	.	ADP1-WT	94667	94667
+UN	224	.	ADP1-WT	94676	94677
+UN	225	.	ADP1-WT	94679	94680
+UN	226	.	ADP1-WT	94707	94709
+UN	227	.	ADP1-WT	94711	94716
+UN	228	.	ADP1-WT	94719	94721
+UN	229	.	ADP1-WT	94723	94727
+UN	230	.	ADP1-WT	94729	94729
+UN	231	.	ADP1-WT	94758	95436
+UN	232	.	ADP1-WT	95438	95438
+UN	233	.	ADP1-WT	95443	95446
+UN	234	.	ADP1-WT	95448	95448
+UN	235	.	ADP1-WT	95453	95476
+UN	236	.	ADP1-WT	95478	95479
+UN	237	.	ADP1-WT	95481	95484
+UN	238	.	ADP1-WT	95494	95495
+UN	239	.	ADP1-WT	95498	95499
+UN	240	.	ADP1-WT	95501	95511
+UN	241	.	ADP1-WT	95513	95565
+UN	242	.	ADP1-WT	95571	95571
+UN	243	.	ADP1-WT	95573	96959
+UN	244	.	ADP1-WT	96962	96967
+UN	245	.	ADP1-WT	96971	96971
+UN	246	.	ADP1-WT	96973	96974
+UN	247	.	ADP1-WT	96976	96983
+UN	248	.	ADP1-WT	96985	96988
+UN	249	.	ADP1-WT	96990	97016
+UN	250	.	ADP1-WT	97023	97023
+UN	251	.	ADP1-WT	97026	97026
+UN	252	.	ADP1-WT	97028	97038
+UN	253	.	ADP1-WT	97054	97054
+UN	254	.	ADP1-WT	97057	97058
+UN	255	.	ADP1-WT	97060	97061
+UN	256	.	ADP1-WT	97065	97065
+UN	257	.	ADP1-WT	97069	97069
+UN	258	.	ADP1-WT	97075	97075
+UN	259	.	ADP1-WT	97077	97077
+UN	260	.	ADP1-WT	97080	97080
+UN	261	.	ADP1-WT	97132	97132
+UN	262	.	ADP1-WT	97134	97134
+UN	263	.	ADP1-WT	97136	97141
+UN	264	.	ADP1-WT	97144	97144
+UN	265	.	ADP1-WT	97146	97147
+UN	266	.	ADP1-WT	97149	97159
+UN	267	.	ADP1-WT	97161	97161
+UN	268	.	ADP1-WT	97163	97163
+UN	269	.	ADP1-WT	97167	97167
+UN	270	.	ADP1-WT	97169	97169
+UN	271	.	ADP1-WT	97171	97174
+UN	272	.	ADP1-WT	97185	97185
+UN	273	.	ADP1-WT	97188	97195
+UN	274	.	ADP1-WT	97197	97197
+UN	275	.	ADP1-WT	97199	97200
+UN	276	.	ADP1-WT	97203	97206
+UN	277	.	ADP1-WT	97209	97209
+UN	278	.	ADP1-WT	97213	97213
+UN	279	.	ADP1-WT	97215	97215
+UN	280	.	ADP1-WT	97218	97219
+UN	281	.	ADP1-WT	97277	97280
+UN	282	.	ADP1-WT	97282	97285
+UN	283	.	ADP1-WT	97292	97292
+UN	284	.	ADP1-WT	97294	98338
+UN	285	.	ADP1-WT	98341	98341
+UN	286	.	ADP1-WT	98344	98345
+UN	287	.	ADP1-WT	98347	98347
+UN	288	.	ADP1-WT	98349	98349
+UN	289	.	ADP1-WT	98352	98361
+UN	290	.	ADP1-WT	98363	98365
+UN	291	.	ADP1-WT	98367	98367
+UN	292	.	ADP1-WT	98369	98369
+UN	293	.	ADP1-WT	98403	98403
+UN	294	.	ADP1-WT	98416	98418
+UN	295	.	ADP1-WT	98420	98421
+UN	296	.	ADP1-WT	98423	98423
+UN	297	.	ADP1-WT	98426	98428
+UN	298	.	ADP1-WT	98430	98432
+UN	299	.	ADP1-WT	98436	98452
+UN	300	.	ADP1-WT	98454	98454
+UN	301	.	ADP1-WT	98456	98457
+UN	302	.	ADP1-WT	98459	98633
+UN	303	.	ADP1-WT	98635	98637
+UN	304	.	ADP1-WT	98639	98639
+UN	305	.	ADP1-WT	98642	98642
+UN	306	.	ADP1-WT	98645	98646
+UN	307	.	ADP1-WT	98649	98649
+UN	308	.	ADP1-WT	98651	98651
+UN	309	.	ADP1-WT	98654	98654
+UN	310	.	ADP1-WT	98658	98661
+UN	311	.	ADP1-WT	98663	98690
+UN	312	.	ADP1-WT	98693	98694
+UN	313	.	ADP1-WT	98696	98699
+UN	314	.	ADP1-WT	98701	98709
+UN	315	.	ADP1-WT	98711	98712
+UN	316	.	ADP1-WT	98714	98799
+UN	317	.	ADP1-WT	98801	98803
+UN	318	.	ADP1-WT	98805	98805
+UN	319	.	ADP1-WT	98807	98807
+UN	320	.	ADP1-WT	98854	98854
+UN	321	.	ADP1-WT	98856	98859
+UN	322	.	ADP1-WT	98861	98861
+UN	323	.	ADP1-WT	98863	99186
+UN	324	.	ADP1-WT	99189	99191
+UN	325	.	ADP1-WT	99193	99195
+UN	326	.	ADP1-WT	99199	99203
+UN	327	.	ADP1-WT	99207	99207
+UN	328	.	ADP1-WT	99210	99210
+UN	329	.	ADP1-WT	99213	99213
+UN	330	.	ADP1-WT	99215	99215
+UN	331	.	ADP1-WT	99241	99241
+UN	332	.	ADP1-WT	99243	99249
+UN	333	.	ADP1-WT	99251	99252
+UN	334	.	ADP1-WT	99254	99261
+UN	335	.	ADP1-WT	99264	99264
+UN	336	.	ADP1-WT	99266	99266
+UN	337	.	ADP1-WT	99269	99269
+UN	338	.	ADP1-WT	99274	99274
+UN	339	.	ADP1-WT	99277	99316
+UN	340	.	ADP1-WT	99318	99318
+UN	341	.	ADP1-WT	99320	99321
+UN	342	.	ADP1-WT	99324	99324
+UN	343	.	ADP1-WT	99326	99329
+UN	344	.	ADP1-WT	99333	99336
+UN	345	.	ADP1-WT	99338	99339
+UN	346	.	ADP1-WT	99342	99359
+UN	347	.	ADP1-WT	99361	99361
+UN	348	.	ADP1-WT	99363	99366
+UN	349	.	ADP1-WT	99368	100330
+UN	350	.	ADP1-WT	212929	215273
+UN	351	.	ADP1-WT	215402	218482
+UN	352	.	ADP1-WT	297453	297457
+UN	353	.	ADP1-WT	297653	297738
+UN	354	.	ADP1-WT	321668	321709
+UN	355	.	ADP1-WT	321768	322714
+UN	356	.	ADP1-WT	645766	650349
+UN	357	.	ADP1-WT	650545	651064
+UN	358	.	ADP1-WT	651263	651402
+UN	359	.	ADP1-WT	868410	868414
+UN	360	.	ADP1-WT	868610	868695
+UN	361	.	ADP1-WT	919843	919883
+UN	362	.	ADP1-WT	941399	944760
+UN	363	.	ADP1-WT	1235456	1235546
+UN	364	.	ADP1-WT	1248286	1249334
+UN	365	.	ADP1-WT	1446535	1447255
+UN	366	.	ADP1-WT	1447521	1448037
+UN	367	.	ADP1-WT	1636003	1636016
+UN	368	.	ADP1-WT	1660759	1665973
+UN	369	.	ADP1-WT	1684528	1684543
+UN	370	.	ADP1-WT	1684799	1684891
+UN	371	.	ADP1-WT	1709538	1710259
+UN	372	.	ADP1-WT	1710524	1711040
+UN	373	.	ADP1-WT	1795803	1795804
+UN	374	.	ADP1-WT	1799695	1800741
+UN	375	.	ADP1-WT	1848822	1851169
+UN	376	.	ADP1-WT	1855868	1858215
+UN	377	.	ADP1-WT	2120338	2169642
+UN	378	.	ADP1-WT	2222802	2222892
+UN	379	.	ADP1-WT	2371896	2372029
+UN	380	.	ADP1-WT	2372196	2372330
+UN	381	.	ADP1-WT	2803425	2803432
+UN	382	.	ADP1-WT	2803630	2804813
+UN	383	.	ADP1-WT	2805639	2805646
+UN	384	.	ADP1-WT	2805844	2807027
+UN	385	.	ADP1-WT	2846084	2846166
+UN	386	.	ADP1-WT	2944245	2949790
+UN	387	.	ADP1-WT	3047559	3047567
+UN	388	.	ADP1-WT	3073161	3078945
+UN	389	.	ADP1-WT	3079738	3079966
+UN	390	.	ADP1-WT	3174567	3174659
+UN	391	.	ADP1-WT	3174915	3174930
+UN	392	.	ADP1-WT	3332283	3332402
+UN	393	.	ADP1-WT	3360665	3360705
+UN	394	.	ADP1-WT	3561573	3567081
+
