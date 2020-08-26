@@ -146,7 +146,8 @@ deletion.data$strain = factor(deletion.data$strain, levels=unique(deletion.data$
 #gpr(ADP1)
 #metabolites
 metabolites = sort(met_name(ADP1))
-write.csv(metabolites, "metabolites.csv")
+write.csv(metabolites, "output/metabolites.csv")
  
 ggplot(deletion.data, aes(x=strain, y=relative.predicted.growth.rate, group=media)) + geom_bar(stat="identity")  + facet_grid(rows = vars(media), scales="free_y") + theme_linedraw() + theme(axis.text.x=element_text(angle = 90, hjust = 0, vjust=0.5)) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 
+ggsave("output/predicted_growth_rates.pdf")
